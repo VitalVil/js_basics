@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+</head>
+
+<body>
+	<script>
+		var admin;
+		var name;
+		name="Василий";
+		admin=name;
+		alert (admin) /*
+    1. Объявите две переменные: admin и name.
+    2. Запишите в name строку "Василий".
+    3. Скопируйте значение из name в admin.
+    4. Выведите admin (должно вывести «Василий»).
+*/
+	</script>
+</body>
+
+</html>
