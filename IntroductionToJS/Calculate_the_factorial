@@ -7,7 +7,7 @@
 
 <body>
 	<script>function factorial(n) {
-  		return (n != 1) ? n * factorial(n - 1) : 1;
+  		return (n !== 1) ? n * factorial(n - 1) : 1;
 } /*Задача — написать функцию factorial(n), которая возвращает факториал числа n!, используя рекурсивный вызов.*/
 
 alert( factorial(5) ); /*120*/
