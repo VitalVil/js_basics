@@ -9,19 +9,19 @@
 	<script>
 		var userName = prompt('Введите логин!','');
 
-if (userName == 'Админ') {
+if (userName === 'Админ') {
 
 	var password = prompt('Введите пароль','');
 
-	if (password == 'Черный Властелин') {
+	if (password === 'Черный Властелин') {
 		alert('Добро пожаловать');
-	}	else if (passwors == null) {
+	}	else if (passwors === null) {
 		alert('Вход отменен');
 	}	else {
 		alert('Пароль неверен');
 	}
 
-}	else if (userName == null) {
+}	else if (userName === null) {
 	alert('Вход отменен');
 
 }	else {
