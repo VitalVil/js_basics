@@ -9,7 +9,7 @@
 	<script>
 		var nameJS = prompt('Каково «официальное» название JavaScript?', '');
 
-		if (nameJS == 'EcmaScript') {
+		if (nameJS === 'EcmaScript') {
 		 	alert('Верно!');
 		}	else {
 			alert('Не знаете? "EcmaScript"!');
