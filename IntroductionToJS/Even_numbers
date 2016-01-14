@@ -8,7 +8,7 @@
 <body>
 	<script>
 		for (var numb = 2; numb <= 10; numb++) {
-			if (numb % 2 == 0) {
+			if (numb % 2 === 0) {
 				alert (numb);
 			}
 		} /*При помощи цикла for выведите чётные числа от 2 до 10.*/
