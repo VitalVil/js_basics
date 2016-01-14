@@ -7,7 +7,7 @@
 
 <body>
 	<script>
-		var userName=prompt("Как Вас зовут?", "");
+		var userName = prompt("Как Вас зовут?", "");
 		alert(userName);/*Создание страницы, которая спрашивает имя и выводит его.*/
 	</script>
 </body>
