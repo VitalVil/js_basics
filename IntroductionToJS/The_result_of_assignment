@@ -1,7 +1,18 @@
- Чему будет равен x в примере ниже?
+<!DOCTYPE html>
+<html>
 
-var a = 2;
+<head>
+	<meta charset="utf-8">
+</head>
 
-var x = 1 + (a *= 2);
+<body>
+	<script>
+	var a = 2;
 
-Ответ: alert(x); // 5
+	var x = 1 + (a *= 2); /*Чему будет равен x в примере?*/
+
+	alert(x); /*5*/
+	</script>
+</body>
+
+</html>
