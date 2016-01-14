@@ -7,7 +7,8 @@
 
 <body>
 	<script>
-		var a = +prompt('a?', '');
+
+		var a = parseInt(prompt('a?', ''), 10);
 
 			switch (a) {
 				case 0:
