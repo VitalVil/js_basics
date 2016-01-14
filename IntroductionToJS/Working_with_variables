@@ -9,9 +9,9 @@
 	<script>
 		var admin;
 		var name;
-		name="Василий";
-		admin=name;
-		alert (admin) /*
+		name = "Василий";
+		admin = name;
+		alert (admin); /*
     1. Объявите две переменные: admin и name.
     2. Запишите в name строку "Василий".
     3. Скопируйте значение из name в admin.
