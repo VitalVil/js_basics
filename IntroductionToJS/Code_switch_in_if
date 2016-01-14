@@ -8,9 +8,9 @@
 <body>
 	<script>
 		var browser = prompt('Какой у вас браузер?','');
-			if (browser == 'IE') {
+			if (browser === 'IE') {
 				alert('О, да у Вас IE!');
-			}	else if (browser == 'Chrome' || 'Firefox' || 'Safari' || 'Opera') {
+			}	else if (browser === 'Chrome' || 'Firefox' || 'Safari' || 'Opera') {
 				alert('Да, и эти браузеры мы поддерживаем');
 			}	else {
 				alert('Мы надеемся, что и в вашем браузере все ок!');
